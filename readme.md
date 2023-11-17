@@ -111,8 +111,8 @@ For fully replicating the experiments in the paper, the code needs to run in sev
 2. Train RL agents with different policy function approximators: SDT, CDT
 
    ```bash
-   python il_train.py --train --env=CartPole-v1 --method=sdt --id=0
-   python il_train.py --train --env=LunarLander-v2 --method=cdt --id=0
+   python il_train.py --env=CartPole-v1 --method=sdt --id=0
+   python il_train.py --env=LunarLander-v2 --method=cdt --id=0
    ```
 
    or simply run with:
